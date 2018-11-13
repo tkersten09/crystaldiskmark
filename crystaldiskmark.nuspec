@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">  
   <metadata>
-    <id>{{PackageName}}</id>
-    <title>CrystalDiskMark</title>
-    <version>{{PackageVersion}}</version>
+    <id>crystaldiskmark</id>
+    <title>CrystalDiskMark 6.0.2 (Install)</title>
+    <version>6.0.2</version>
     <authors>Noriyuki Miyazaki</authors>
-    <owners>dtgm</owners>
+    <owners>dtgm, tkersten09</owners>
     <summary>Storage disk benchmark</summary>
     <description>
 CrystalDiskMark is a small benchmark utility for your Hard Disk Drives (HDDs) and Solid State Disks (SSDs).
@@ -20,23 +20,20 @@ CrystalDiskMark is a small benchmark utility for your Hard Disk Drives (HDDs) an
 #### Important Notice
 * "MB/s" means 1,000,000 byte/sec
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
-    <projectUrl>http://crystalmark.info/software/CrystalDiskMark/index-e.html</projectUrl>
-    <docsUrl>http://crystalmark.info/software/CrystalDiskMark/manual-en/</docsUrl>
-    <tags>benchmark storage drive admin</tags>
+    <packageSourceUrl>https://github.com/tkersten09/crystaldiskmark</packageSourceUrl>
+    <projectUrl>https://crystalmark.info/en/software/crystaldiskmark/</projectUrl>
+    <docsUrl>https://crystalmark.info/en/software/crystaldiskmark/</docsUrl>
+    <tags>benchmark storage drive admin hdd ssd CrystalDiskMark</tags>
     <copyright>© 2007 Noriyuki Miyazaki</copyright>
-    <licenseUrl>http://crystalmark.info/software/CrystalDiskMark/manual-en/License.html</licenseUrl>
+    <licenseUrl>https://crystalmark.info/en/software/crystaldiskmark/crystaldiskmark-license/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/{{PackageName}}.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/d1e037cc7c943fda29b9067b3b1c3229d99402ff/icons/crystaldiskmark.png</iconUrl>
     <releaseNotes>
 #### Program
-* [Changelog](http://crystalmark.info/software/CrystalDiskMark/manual-en/History.html)
-
-#### Package
-* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
+* [Changelog](https://crystalmark.info/en/software/crystaldiskmark/crystaldiskmark-history/)
     </releaseNotes>
     <dependencies>
-      <dependency id="chocolatey-uninstall.extension" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
     </dependencies>
   </metadata>
   <files>
